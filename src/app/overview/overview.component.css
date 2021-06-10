@@ -1,0 +1,168 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.header-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-navbar-list {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item > a {
+  color: green;
+  font-weight: bold;
+}
+
+.header-searchBar {
+  width: 30%;
+  margin-left: 200px;
+}
+
+.user-button {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-button > button {
+  margin-left: 20px;
+}
+
+.main-content {
+  margin: 50px 100px 0 100px;
+}
+
+.bg-image {
+  width: 200px;
+  height: 300px;
+}
+
+.right-content {
+  width: 70%;
+  position: absolute;
+  top: 100px;
+  left: 320px;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.video-type {
+  width: 50px;
+  margin: 5px 0 5px 0;
+  text-align: center;
+  background-color: #d3d3d3;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.star-rate-light {
+  font-size: 20px;
+  color: yellow;
+}
+
+.rate-score {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.total-views, .star-rate-blank {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.user-rate {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.video-description-title {
+  margin: 20px 0 20px 0;
+}
+
+.video-description-title > .title-bold,
+.videos-episodes-details-title,
+.other-popular-stories-title {
+  font-weight: bold;
+}
+
+.video-episodes {
+  width: 100%;
+}
+
+.video-episodes > button {
+  width: 10%;
+  margin-left: 10px;
+}
+
+.btn-goToForum {
+  float: right;
+  color: white;
+  background-color: #04A462;
+}
+
+.videos-episodes-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videos-episodes-list {
+  height: 300px;
+  list-style: none;
+  margin-top: 10px;
+  box-shadow: 5px 5px 5px 5px #d3d3d3;
+  overflow: scroll;
+}
+
+.videos-episodes-list > li {
+  margin-top: 10px;
+}
+
+.videos-episodes-list-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.episodes_image {
+  margin-left: 20px;
+  width: 35%;
+}
+
+.other-popular-stories-title {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.other-popular-stories li {
+  display: inline;
+  position: relative;
+}
+
+.other-popular-stories li img {
+  width: 200px;
+  height: 300px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.other-stories-title {
+  position: absolute;
+  width: 130px;
+  left: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.other-stories-title  button {
+  width: auto;
+  margin-left: 5px;
+}
