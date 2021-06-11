@@ -120,14 +120,36 @@
   overflow: scroll;
 }
 
-.videos-episodes-list > li {
+.episodes-list {
+  display: flex;
+}
+
+.episodes-list img {
+  width: 300px;
+  height: 150px;
+}
+
+.videos-episodes-list > div {
   margin-top: 10px;
-  position: relative;
 }
 
 .videos-episodes-list-number {
+  height: 150px;
+  line-height: 150px;
+  display: inline-block;
   font-size: 20px;
   font-weight: bold;
+  margin-left: 20px;
+}
+
+.left-list {
+  margin-right: 20px;
+  display: flex;
+}
+
+.right-list {
+  margin: 40px auto;
+  text-align: start;
 }
 
 .episodes-select {
