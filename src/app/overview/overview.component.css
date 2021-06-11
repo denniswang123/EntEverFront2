@@ -122,10 +122,17 @@
 
 .videos-episodes-list > li {
   margin-top: 10px;
+  position: relative;
 }
 
 .videos-episodes-list-number {
   font-size: 20px;
+  font-weight: bold;
+}
+
+.episodes-select {
+  width: 150px;
+  height: 30px;
   font-weight: bold;
 }
 
@@ -162,7 +169,63 @@
   justify-content: center;
 }
 
-.other-stories-title  button {
+.other-stories-title button {
   width: auto;
   margin-left: 5px;
+}
+
+.overview-footer {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  background-color: #d3d3d3;
+  margin-bottom: 30px;
+}
+
+.product-information, .enterprise-information, .company-information, .footer-icon {
+  flex: 1;
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+  list-style: none;
+}
+
+.product-information a, .enterprise-information a, .company-information a {
+  color: black;
+}
+
+.product-title, .enterprise-title, .company-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.product-details, .enterprise-details, .company-details {
+  list-style: none;
+}
+
+.product-details li, .enterprise-details li, .company-details li {
+  margin-bottom: 5px;
+}
+
+.company-information {
+  margin-left: 250px;
+}
+
+.copyright {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: #AFAFAF;
+}
+
+.footer-icon {
+  margin-top: 40px;
+}
+
+.footer-icon li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 30px;
 }
